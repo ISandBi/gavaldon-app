@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gavaldon GO!</string>
+    <string name="brand_gavaldon">GAVALDON</string>
+    <string name="brand_go">GO!</string>
+    <string name="tagline">Tu estación, en tus manos</string>
+    <string name="logo_description">Logotipo de Gavaldon GO</string>
+
+    <!-- Navegación -->
+    <string name="nav_map">Mapa</string>
+    <string name="nav_promos">Promos</string>
+    <string name="nav_history">Historial</string>
+    <string name="nav_profile">Perfil</string>
+
+    <!-- Autenticación -->
+    <string name="login_title">Inicia sesión</string>
+    <string name="login_session_expired">Tu sesión se cerró por inactividad. Inicia sesión de nuevo.</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_password_confirm">Confirmar contraseña</string>
+    <string name="hint_name">Nombre completo</string>
+    <string name="hint_phone">Teléfono a 10 dígitos</string>
+    <string name="action_login">Iniciar sesión</string>
+    <string name="action_register">Crear cuenta</string>
+    <string name="register_title">Crear cuenta</string>
+    <string name="register_password_help">Mínimo 12 caracteres, con letras y números.</string>
+    <string name="action_back">Volver</string>
+    <string name="loading">Cargando</string>
+
+    <!-- Mapa -->
+    <string name="fuel_prices_title">Precios de combustible</string>
+    <string name="per_liter">/ Litro</string>
+    <string name="map_view_list">Ver en lista</string>
+    <string name="map_view_map">Ver en mapa</string>
+    <string name="my_location">Mi ubicación</string>
+    <string name="location_denied">Sin permiso de ubicación. Puedes seguir usando el mapa y los precios.</string>
+    <string name="location_unavailable">No se pudo obtener tu ubicación. Activa el GPS e inténtalo de nuevo.</string>
+    <string name="nearest_station">Más cercana: %1$s (%2$s)</string>
+    <string name="action_view">Ver</string>
+    <string name="station_type">Gasolinera</string>
+    <string name="station_selected">Estación seleccionada</string>
+    <string name="station_available_fuels">Combustibles disponibles</string>
+    <string name="station_location_label">Ubicación: %1$s</string>
+    <string name="station_lat_lon">Latitud: %1$s\nLongitud: %2$s</string>
+    <string name="station_distance">A %1$s de ti</string>
+    <string name="action_buy">Comprar</string>
+    <string name="action_directions">Cómo llegar</string>
+    <string name="directions_unavailable">No hay una app de mapas instalada para abrir la ruta.</string>
+    <string name="station_row_hint">Toca para ver combustibles y comprar</string>
+
+    <!-- Pago -->
+    <string name="payment_title">Pagar combustible</string>
+    <string name="payment_amount_hint">Monto a pagar (MXN)</string>
+    <string name="payment_amount_help">Entre $50 y $2,000, en pesos enteros.</string>
+    <string name="payment_liters_estimate">Litros estimados: %1$s</string>
+    <string name="payment_card_section">Datos de tarjeta de crédito o débito</string>
+    <string name="payment_secure_note">Pago protegido. Tu número de tarjeta y CVV no se guardan en este dispositivo.</string>
+    <string name="hint_card_holder">Nombre en la tarjeta</string>
+    <string name="hint_card_number">Número de tarjeta</string>
+    <string name="hint_card_expiry">Vence (MM/AA)</string>
+    <string name="hint_card_cvv">CVV</string>
+    <string name="action_pay">Pagar Ahora</string>
+    <string name="payment_total">Total: %1$s</string>
+    <string name="payment_processing">Procesando pago…</string>
+    <string name="payment_env_unsafe">Por seguridad no se puede pagar en este entorno.</string>
+    <string name="accepted_cards">Se aceptan Visa, Mastercard y American Express.</string>
+
+    <!-- Resultado -->
+    <string name="result_title">Resultado del pago</string>
+    <string name="result_approved_msg">Presenta el folio al despachador para cargar tu combustible.</string>
+    <string name="result_rejected_msg">La tarjeta fue declinada. Revisa los datos o usa otra tarjeta. No se realizó ningún cargo.</string>
+    <string name="result_pending_msg">Tu banco aún está confirmando el pago. Consulta el estado en tu historial en unos minutos.</string>
+    <string name="result_folio">Folio: %1$s</string>
+    <string name="result_station">Estación: %1$s</string>
+    <string name="result_fuel">Combustible: %1$s</string>
+    <string name="result_liters">Litros: %1$s</string>
+    <string name="result_amount">Monto: %1$s</string>
+    <string name="result_reference">Referencia: %1$s</string>
+    <string name="result_card">Tarjeta: %1$s</string>
+    <string name="action_view_history">Ver historial</string>
+    <string name="action_go_home">Volver al inicio</string>
+
+    <!-- Historial, promociones, perfil -->
+    <string name="history_empty">Aún no tienes pagos registrados.</string>
+    <string name="promos_empty">No hay promociones vigentes por ahora.</string>
+    <string name="promo_valid_until">Vigente hasta %1$s</string>
+    <string name="promo_station_all">En todas las estaciones</string>
+    <string name="promo_station_one">Solo en %1$s</string>
+    <string name="profile_title">Mi cuenta</string>
+    <string name="action_logout">Cerrar sesión</string>
+    <string name="privacy_note">Tus datos se guardan cifrados en este dispositivo. Los datos de tarjeta nunca se almacenan.</string>
+
+    <!-- Notificaciones -->
+    <string name="channel_payments_name">Pagos</string>
+    <string name="channel_payments_desc">Avisos sobre el resultado de tus pagos</string>
+    <string name="notif_payment_approved">Pago aprobado · Folio %1$s</string>
+    <string name="notif_payment_body">Presenta tu folio al despachador en %1$s.</string>
+
+    <!-- Perfil despachador -->
+    <string name="login_title_dispatcher">Acceso de despachador</string>
+    <string name="action_switch_dispatcher">Acceso para despachadores</string>
+    <string name="action_switch_customer">Acceso para clientes</string>
+    <string name="action_register_dispatcher">Registrar despachador</string>
+    <string name="register_dispatcher_title">Alta de despachador</string>
+    <string name="hint_station">Sucursal</string>
+    <string name="register_station_note">Cada sucursal tiene un solo despachador. La sucursal queda ligada a tu cuenta y no se puede cambiar desde la app.</string>
+    <string name="register_station_none">Todas las sucursales ya tienen despachador.</string>
+    <string name="dispatcher_wrong_role">Esta pantalla es solo para despachadores.</string>
+    <string name="dnav_home">Inicio</string>
+    <string name="dnav_purchases">Compras</string>
+    <string name="dnav_history">Despachos</string>
+    <string name="dnav_shift">Corte</string>
+    <string name="dnav_profile">Perfil</string>
+    <string name="dash_title">Sucursal</string>
+    <string name="dash_approved">Pagos aprobados hoy</string>
+    <string name="dash_dispatched">Despachos hoy</string>
+    <string name="dash_to_dispatch">Por despachar</string>
+    <string name="dash_waiting">Pagos en espera</string>
+    <string name="dash_sales">Ventas de hoy</string>
+    <string name="dash_liters">Litros despachados hoy</string>
+    <string name="validate_title">Validar ticket</string>
+    <string name="hint_folio">Folio del ticket (TCK-2026-000001)</string>
+    <string name="action_validate">Validar</string>
+    <string name="purchases_empty">No hay compras con este filtro.</string>
+    <string name="dispatch_history_empty">No hay despachos en este periodo.</string>
+    <string name="ticket_title">Ticket</string>
+    <string name="ticket_ready">Pago aprobado: listo para despachar</string>
+    <string name="ticket_other_station">Ticket de otra sucursal</string>
+    <string name="ticket_not_approved">Pago no aprobado</string>
+    <string name="ticket_already">Ticket ya despachado</string>
+    <string name="ticket_not_found">Ticket no encontrado</string>
+    <string name="ticket_invalid">Folio con formato inválido</string>
+    <string name="ticket_unauthorized">Acceso no autorizado</string>
+    <string name="ticket_done">Despacho completado</string>
+    <string name="hint_liters_dispatched">Litros despachados</string>
+    <string name="action_confirm_dispatch">Confirmar despacho</string>
+    <string name="action_back_to_dashboard">Volver al panel</string>
+    <string name="shift_title">Corte de turno</string>
+    <string name="shift_current">Turno actual</string>
+    <string name="shift_previous">Cortes anteriores</string>
+    <string name="shift_previous_empty">Aún no hay cortes.</string>
+    <string name="action_close_shift">Cerrar turno y hacer corte</string>
+    <string name="shift_confirm_title">¿Cerrar el turno?</string>
+    <string name="shift_confirm_message">Se guardará el corte con los despachos actuales y el siguiente turno empezará en cero.</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="profile_station">Sucursal</string>
+</resources>

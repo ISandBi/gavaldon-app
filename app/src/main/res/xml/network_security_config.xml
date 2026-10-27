@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  OWASP M5 (Insecure Communication) / PCI DSS 4.2.1: solo TLS. Sin tráfico en claro.
+  Cuando exista la API REST de Gavaldon, agregar aquí su dominio con certificate pinning:
+
+  <domain-config>
+      <domain includeSubdomains="true">api.gavaldon.example</domain>
+      <pin-set expiration="2027-12-31">
+          <pin digest="SHA-256">REEMPLAZAR_CON_HASH_SPKI_DEL_CERTIFICADO=</pin>
+          <pin digest="SHA-256">REEMPLAZAR_CON_HASH_SPKI_DE_RESPALDO=</pin>
+      </pin-set>
+  </domain-config>
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

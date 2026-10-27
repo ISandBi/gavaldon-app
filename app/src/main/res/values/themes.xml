@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.GavaldonGo" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/color_brand_primary</item>
+        <item name="colorPrimaryVariant">@color/color_brand_primary</item>
+        <item name="colorOnPrimary">@color/color_text_on_dark</item>
+        <item name="colorSecondary">@color/color_brand_accent</item>
+        <item name="colorSecondaryVariant">@color/color_brand_accent</item>
+        <!-- HAL-01 (opción A provisional): texto azul sobre naranja -->
+        <item name="colorOnSecondary">@color/color_action_primary_text</item>
+        <item name="android:colorBackground">@color/color_surface_background</item>
+        <item name="colorSurface">@color/color_surface_card</item>
+        <item name="colorOnSurface">@color/color_text_body</item>
+        <item name="colorOnBackground">@color/color_text_body</item>
+        <item name="colorError">@color/color_state_error</item>
+
+        <item name="android:statusBarColor">@color/color_brand_primary</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:textColorPrimary">@color/color_text_title</item>
+        <item name="android:textColorSecondary">@color/color_text_body</item>
+        <item name="android:textColorHint">@color/color_text_body</item>
+        <item name="android:textColor">@color/color_text_body</item>
+
+        <item name="materialButtonStyle">@style/Widget.Gavaldon.Button.Primary</item>
+        <item name="textInputStyle">@style/Widget.Gavaldon.TextInputLayout</item>
+        <item name="materialCardViewStyle">@style/Widget.Gavaldon.Card</item>
+        <item name="bottomSheetDialogTheme">@style/ThemeOverlay.Gavaldon.BottomSheet</item>
+    </style>
+
+    <!-- Splash (Android 12+ y compat): fondo Azul Confianza + G de marca -->
+    <style name="Theme.GavaldonGo.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/color_brand_primary</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.GavaldonGo</item>
+    </style>
+
+    <style name="ThemeOverlay.Gavaldon.BottomSheet" parent="ThemeOverlay.MaterialComponents.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Widget.Gavaldon.BottomSheet</item>
+    </style>
+
+    <style name="Widget.Gavaldon.BottomSheet" parent="Widget.MaterialComponents.BottomSheet.Modal">
+        <item name="backgroundTint">@color/color_surface_card</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.Gavaldon.SheetTop</item>
+    </style>
+
+    <style name="ShapeAppearance.Gavaldon.SheetTop" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">20dp</item>
+        <item name="cornerSizeTopRight">20dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+</resources>

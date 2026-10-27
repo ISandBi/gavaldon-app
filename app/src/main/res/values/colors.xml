@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ET-UI-001 v1.0 · Tokens de color de Gavaldon GO.
+  ÚNICO archivo con literales hexadecimales (criterio CA-01).
+  Layouts, drawables, estilos y código Kotlin solo referencian @color/color_*.
+-->
+<resources>
+    <!-- Paleta oficial (apartado 4) -->
+    <color name="color_brand_primary">#0B2545</color>        <!-- Azul Confianza  -->
+    <color name="color_brand_accent">#FF6B00</color>         <!-- Naranja Energía -->
+    <color name="color_text_title">#0B2545</color>
+    <color name="color_text_body">#4A5568</color>            <!-- Gris Asfalto -->
+    <color name="color_text_on_dark">#FFFFFF</color>
+    <color name="color_surface_background">#F7FAFC</color>   <!-- Gris Claro Gavaldon -->
+    <color name="color_surface_card">#FFFFFF</color>
+
+    <!-- Funcionales (apartado 4.1) -->
+    <color name="color_state_error">#E53E3E</color>          <!-- SOLO como borde, nunca como texto (6.2) -->
+    <color name="color_state_disabled_bg">#CBD5E0</color>
+    <color name="color_state_disabled_text">#718096</color>
+    <color name="color_border_focus">#0B2545</color>
+
+    <!--
+      HAL-01 (pendiente de resolución formal por el propietario).
+      Se implementa PROVISIONALMENTE la Opción A recomendada por la especificación:
+      fondo #FF6B00 con texto #0B2545 (5.39:1, cumple WCAG AA).
+      Para cambiar a la Opción B o C solo se editan estas dos líneas:
+        Opción B: bg #C75300 / texto #FFFFFF      Opción C: bg #FF6B00 / texto #000000
+    -->
+    <color name="color_action_primary_bg">@color/color_brand_accent</color>
+    <color name="color_action_primary_text">@color/color_brand_primary</color>
+</resources>
